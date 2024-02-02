@@ -37,14 +37,6 @@ public void tester()
 }
 public boolean palindrome(String word)
 {
-//String str = "";
-  //for (int i = word.length()-1; i>=0; i--) { //minus i is crazyyy
-  //  str += word.substring(i, i+1); //only need to do substring i
-  //}
-  //if ( str.equals(word) == true) {
-  //  return true;
-  //}
-  //return false;
   String rtn= onlyLetters(noSpaces(noCapitals(word)));
   return (rtn.equals(reverse(rtn)));
 }
